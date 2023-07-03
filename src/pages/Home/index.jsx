@@ -1,9 +1,10 @@
-import { Container, Conversion, VideoLibrary, Navigation, PageNavigation, SeeDemo, Image, TextDemo, Footer, UsefulLinks, Links } from './styles'
+import { Container, VideoLibrary, Navigation, PageNavigation, SeeDemo, Image, TextDemo, Footer, UsefulLinks, Links } from './styles'
 
 import { Header } from '../../components/Header'
 import { Button } from '../../components/Button'
 import { Line } from '../../components/Line'
 import { SectionLinks } from '../../components/SectionLinks'
+import { SectionConversion } from '../../components/SectionConversion'
 
 
 export function Home() {
@@ -11,12 +12,7 @@ export function Home() {
   return (
     <Container>
       <Header />
-      <Conversion>
-        <h3>WEBNARS EXCLUSIVOS</h3>
-        <h2>Menos Conversinha,</h2>
-        <h1>Mais Conversão</h1>
-        <p>Conheça as estratégias que <strong>mudam o jogo</strong> e como aplicá-las no seu negócio</p>
-      </Conversion>
+      <SectionConversion />
 
       <VideoLibrary>
         <Navigation>

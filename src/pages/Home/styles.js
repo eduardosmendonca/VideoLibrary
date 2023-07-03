@@ -6,23 +6,6 @@ export const Container = styled.main`
   height: 100vh;
 `
 
-export const Conversion = styled.section`
-  height: 60vh;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  > h3 {
-    padding: 10px 20px;
-    border: 1px solid black;
-    border-radius: 20px 20px 20px 5px;
-  }
-
-  background-color: ${({ theme }) => theme.COLORS.BG_TESTE};
-`
-
 export const VideoLibrary = styled.section`
   margin-top: 20px;
 `
@@ -47,12 +30,12 @@ export const SeeDemo = styled.section`
   align-items: center;
   justify-content: space-evenly;
 
-  background-color: ${({ theme }) => theme.COLORS.BG_TESTE};
+  background-color: ${({ theme }) => theme.COLORS.BG_BLUE};
 `
 
-export const Image = styled.img`
+export const Image = styled.div`
   width: 40%;
-  height: 60vh;
+  height: 70vh;
 
   background: url(${backgroundImg}) no-repeat center center;
 `

@@ -10,6 +10,8 @@ export default createGlobalStyle`
   body {
     background-color: ${({ theme }) => theme.COLORS.BG_WHITE};
     font-size: 16px;
+
+    font-family: 'Plus Jakarta Sans', sans-serif;
   }
 
   button:hover {

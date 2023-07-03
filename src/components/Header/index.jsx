@@ -1,9 +1,9 @@
-import { Container } from './styles'
+import { Container, Image } from './styles'
 
 export function Header(){
   return (
     <Container>
-      <h1>Leadster</h1>
+      <Image />
     </Container>
   )
 }
