@@ -1,10 +1,11 @@
-import { Container, VideoLibrary, Navigation, PageNavigation, SeeDemo, Image, TextDemo, Footer, UsefulLinks, Links } from './styles'
+import { Container, SeeDemo, Image, TextDemo, Footer, UsefulLinks, Links } from './styles'
 
 import { Header } from '../../components/Header'
 import { Button } from '../../components/Button'
 import { Line } from '../../components/Line'
 import { SectionLinks } from '../../components/SectionLinks'
 import { SectionConversion } from '../../components/SectionConversion'
+import { SectionVideoLibrary } from '../../components/SectionVideoLibrary'
 
 
 export function Home() {
@@ -13,27 +14,8 @@ export function Home() {
     <Container>
       <Header />
       <SectionConversion />
+      <SectionVideoLibrary />
 
-      <VideoLibrary>
-        <Navigation>
-          <Button title='Agências' />
-          <Button title='Chatbox' />
-          <Button title='Marketing Digital' />
-          <Button title='Geração de Leads' />
-          <Button title='Mídia Paga' />
-        </Navigation>
-        <Line />
-        <h1>Aqui vem a biblioteca de videos</h1>
-        <Line />
-        <PageNavigation>
-          <p>Página</p>
-          <Button title='1' />
-          <Button title='2' />
-          <Button title='3' />
-          <Button title='4' />
-
-        </PageNavigation>
-      </VideoLibrary>
 
       <SeeDemo>
         <Image />

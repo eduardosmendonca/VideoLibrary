@@ -6,21 +6,6 @@ export const Container = styled.main`
   height: 100vh;
 `
 
-export const VideoLibrary = styled.section`
-  margin-top: 20px;
-`
-
-export const Navigation = styled.div`
-  display: flex;
-  gap: 20px;
-`
-
-export const PageNavigation = styled.div`
-  margin-top: 20px;
-  display: flex;
-  gap: 20px;
-`
-
 export const SeeDemo = styled.section`
   height: 60vh;
 
