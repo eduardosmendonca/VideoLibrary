@@ -1,11 +1,10 @@
-import { Container, SeeDemo, Image, TextDemo, Footer, UsefulLinks, Links } from './styles'
+import { Container, Footer, UsefulLinks, Links } from './styles'
 
 import { Header } from '../../components/Header'
-import { Button } from '../../components/Button'
-import { Line } from '../../components/Line'
 import { SectionLinks } from '../../components/SectionLinks'
 import { SectionConversion } from '../../components/SectionConversion'
 import { SectionVideoLibrary } from '../../components/SectionVideoLibrary'
+import { SectionSeeDemo } from '../../components/SectionSeeDemo'
 
 
 export function Home() {
@@ -15,18 +14,9 @@ export function Home() {
       <Header />
       <SectionConversion />
       <SectionVideoLibrary />
+      <SectionSeeDemo />
 
-
-      <SeeDemo>
-        <Image />
-        <TextDemo>
-          <h1>Pronto para triplicar sua <strong>Geração de Leads?</strong></h1>
-          <p>Criação e ativação em <strong>4 minutos.</strong></p>
-          <Line />
-          <Button title='VER DEMONSTRAÇÃO' />
-          <p>Não é necessário Cartão de Crédito | 4.9/5 média de satisfação.</p>
-        </TextDemo>
-      </SeeDemo>
+      
 
       <Footer>
         <h1>Leadster</h1>
